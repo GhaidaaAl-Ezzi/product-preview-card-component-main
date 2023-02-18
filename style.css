@@ -1,0 +1,158 @@
+
+:root{
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+        
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%)
+};
+
+
+
+
+    *{
+        font-family: 'Fraunces', serif;
+        font-family: 'Montserrat', sans-serif;
+   }
+    
+   
+   body{
+       font-size: 14px;
+       background-color: var(--Cream);
+   }
+   
+   .product-container{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items:center ;
+       padding: 200px;
+   }
+   
+   .product-card{
+       display: flex;
+   justify-content: center;
+   align-items: center;  
+     background-color: var(--White);
+       width:400px;
+       height: 300px;
+       border-radius:10px ;
+   }
+   
+   img{
+       width: 200px;
+       height:300px;
+       border-radius:10px ;
+   }
+   .product-description{
+       color: var(--Dark-grayish-blue);
+       font-size: 12px;
+       text-align: center;
+       padding: 10px;
+   }
+   .price{
+       display:flex;
+       justify-content: center;
+   }
+   .price-after{
+   
+       color:var(--Dark-cyan);
+       font-family: 'Fraunces', serif;
+       margin-bottom:0;
+   
+   
+   }
+   .price-before{
+       text-decoration: line-through;
+   }
+   
+   .add-button{
+   background-color: var(--Dark-cyan);
+   color: var(--White);
+   margin:30px;
+   padding:10px ;
+   
+   border-radius: 20px;
+   }
+   
+   .add-button:hover,add-button:active{
+       background-color: var(--Cream);
+       color:var(--Dark-cyan)
+   } 
+
+@media screen and (max-width:1024px){
+
+    
+body{
+    font-size: 14px;
+    background-color: var(--Cream);
+}
+
+.product-container{
+    text-align: center;
+    align-items:center ;
+    padding: 100px;
+}
+
+.product-card{
+    display: block;
+align-items: center;  
+  background-color: var(--White);
+    width:400px;
+    height: 550px;
+    border-radius:10px ;
+
+}
+
+.product-image{
+    
+}
+img{
+    background-image: url("C:\Projects\newbi\product-preview-card-component-main\design\mobile-design.jpg") ;
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.product-description{
+    color: var(--Dark-grayish-blue);
+    font-size: 12px;
+    text-align: center;
+}
+.price{
+    display:block;
+    justify-content: center;
+}
+.price-after{
+
+    color:var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    margin-bottom:0;
+
+
+}
+.price-before{
+    text-decoration: line-through;
+}
+
+.add-button{
+background-color: var(--Dark-cyan);
+color: var(--White);
+margin:30px;
+padding:10px ;
+
+border-radius: 20px;
+}
+
+.add-button:hover,add-button:active{
+    background-color: var(--Cream);
+    color:var(--Dark-cyan)
+}
+
+
+    
+}
